@@ -18,10 +18,10 @@ public class ASUHelloWorldJavaFX extends Application {
     	System.out.println("It started!");
         primaryStage.setTitle("ASU Hello World Spring 2024");
         Button btn = new Button();
-        btn.setText("Display: 'ASU says: Hello World!'");
+        btn.setText("Brian Venegas's second commit");
         btn.setOnAction(new EventHandler<>() {
             public void handle(ActionEvent event) {
-                System.out.println("ASU: Hello World!");
+                System.out.println("This is a test to see if commits are working!");
             }
         });
         
